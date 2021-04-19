@@ -18,7 +18,8 @@ body{
     0 3px 5px rgba(0,0,0,.2),
     0 5px 10px rgba(0,0,0,.25),
     0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15);    color: #fff;
+    0 20px 20px rgba(0,0,0,.15);    
+    color: #fff;
     text-align: center;
     font-family: Bungee,Impact,sans-serif;
     font-size: 36px;
@@ -26,9 +27,94 @@ body{
     letter-spacing: .06em;
 }
 
+#app-name:hover{
+    cursor: pointer;
+}
 
 
+.conversion{
+    background-color: #fff;
+    color: #fff;
+    margin-top:80px;
+    height:300px;
+    width:450px;
+    margin-left: 10px;
+    border-radius:20px;
+    display: inline-block;
+}
+
+.b{
+    fill: #91b33e;
+    fill-rule: evenodd;
+}
+
+#conversion-content{
+    margin-left: 62px  !important;
+    margin-top: 63px !important;
+}
+
+
+#short-url-button{
+    color: white;
+    background-color: #28c98b;
+    border-color: #28c98b;
+    font-weight: 700;
+    width:341px;
+    margin-top: 10px;
+}
+
+#long-url-header{
+    color: black;
+    font-weight: 700;
+}
+
+#error-text{
+    color: red;
+}
+
+#long-url-inp{
+    margin-top:20px;
+    margin-bottom:10px;
+    background: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    border: 1px solid #6b705c;
+    padding: 16px 10px;
+    height: auto;
+    
+}
+
+#text-content-url-shortener{
+    display:inline-block;
+    margin-left:90px;
+}
+
+#welcome-text{
+    color:#fff;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size: 25px;
+}
+
+#benifits-url-shortener{
+    color:#fff;
+    font-weight: 700;
+}
 
 ul{
     color: #fff;
+}
+
+#benifit-list{
+    list-style-type: none;
+}
+
+ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 24px 0 -28px;
+    color: #fff;
+    font-size: 25px;
 }
